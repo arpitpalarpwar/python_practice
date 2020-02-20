@@ -1,3 +1,12 @@
+'''
+Question - free iphones
+            every person gets 1 iphone at a time
+            can take as many as he wants but has to get in queue again to get the phone
+            1 sec for 1 iphone
+            how much total time for a particular person to get all the iphones he wants
+
+'''
+
 def free_iphone(ar, what_pos):
     curr_len, prev_len, count = 0, 0, 0
     count = 0
